@@ -111,7 +111,8 @@ export default class About extends React.Component<Props, {}> {
                <div className="col-xs-12">
                    <h3>
                        <small>
-                           We are adding react components: a main component that consumes a header and aboutPage component.
+                           We are adding react components: a main component that consumes a header and
+                           aboutPage component.
                        </small>
                    </h3>
                </div>
@@ -139,7 +140,8 @@ export default class About extends React.Component<Props, {}> {
                      </li>
                      <li>
                        <h4>
-                         header.tsx: <small>simulate a header component (in next samples this will include a nav bar).</small>
+                         header.tsx: <small>simulate a header component (in next samples this will include a
+                        nav bar).</small>
                        </h4>
                      </li>
                      <li>
