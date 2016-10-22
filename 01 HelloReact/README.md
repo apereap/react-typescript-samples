@@ -45,7 +45,7 @@ file called _index.tsx_.
 ## Definition
 #### src/index.tsx
 
-```
+```javascript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
@@ -107,7 +107,7 @@ ReactDOM.render(
 
 Now we are going to change the body and insert <div id="root">.
 
-```
+```html
 <!DOCTYPE html>
 <html>
   <head>
@@ -126,6 +126,6 @@ We use *id="root"*, that we defined previously in *ReactDom.render* second argum
 
 Let's run the sample
 
-```
+```bash
 npm start
 ```

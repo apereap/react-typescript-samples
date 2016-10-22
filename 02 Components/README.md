@@ -14,7 +14,7 @@ Summary steps:
 ## Required dependencies
 - *01 Hello React* dependencies
 
-```
+```bash
 npm install
 ```
 
@@ -30,7 +30,7 @@ called common.
 
 Let's create the file _header.tsx_.
 
-```
+```javascript
 import * as React from 'react';
 
 interface Props extends React.Props<Header> {
@@ -59,7 +59,7 @@ appear in all views from our application.
 Let's create a new file _app.tsx_ inside src/components and we are going to
 include the new component Header.
 
-```
+```javascript
 import * as React from 'react';
 import Header from './common/header';
 
@@ -89,7 +89,7 @@ We have to create a src/components subfolder called about.
 
 Let's create inside the file _aboutPage.tsx_.
 
-```
+```javascript
 import * as React from 'react';
 
 interface Props extends React.Props<About> {
@@ -168,7 +168,7 @@ We are going to create an about component inside App component.
 
 Let's include the AboutPage component in _app.tsx_. Don't forget the import.
 
-```
+```javascript
 import * as React from 'react';
 import Header from './common/header';
 import AboutPage from './about/aboutPage';
@@ -189,7 +189,7 @@ We are going to use App component from _index.tsx_.
 
 Let's import App and use as the first argument of ReactDOM.render.
 
-```
+```javascript
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import App from './components/app';
